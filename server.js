@@ -9,16 +9,16 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function(req,res){
- res.send('Article One Requested and will be Served Here');
+app.get('/Personnal_Background',function(req,res){
+ res.send('Personnal_Background Requested and will be Served Here');
 });
 
-app.get('/article-Two',function(req,res){
- res.send('Article Two Requested and will be Served Here');
+app.get('/Education_Background',function(req,res){
+ res.send('Education_Background Requested and will be Served Here');
 });
 
-app.get('/article-Three',function(req,res){
- res.send('Article Three Requested and will be Served Here');
+app.get('/Contact Information',function(req,res){
+ res.send('Contact Information Requested and will be Served Here');
 });
 
 app.get('/ui/style.css', function (req, res) {
