@@ -17,8 +17,8 @@ app.get('/Education_Background',function(req,res){
  res.send('Education_Background Requested and will be Served Here');
 });
 
-app.get('/Contact Information',function(req,res){
- res.send('Contact Information Requested and will be Served Here');
+app.get('/Contact_Information',function(req,res){
+ res.send('Contact_Information Requested and will be Served Here');
 });
 
 app.get('/ui/style.css', function (req, res) {
